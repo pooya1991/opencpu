@@ -34,7 +34,7 @@ load_config_and_settings <- local({
     }
 
     # global options. This should be moved into the fork/worker process
-    options(max.print = 1000)
+    options(max.print = 2000)
     options(menu.graphics = FALSE)
     options(keep.source = FALSE)
     options(useFancyQuotes = FALSE)
